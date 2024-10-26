@@ -6,3 +6,7 @@ This project is an implementation of the classic Tic-Tac-Toe game using the Mini
 - **Library**: p5.js
 
 Enjoy playing against an unbeatable AI!
+
+## Showcase
+
+![TicTacToe](./showcase.gif)
