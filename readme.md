@@ -7,6 +7,6 @@ This project is an implementation of the classic Tic-Tac-Toe game using the Mini
 
 Enjoy playing against an unbeatable AI!
 
-## Showcase
+## Demo
 
 ![TicTacToe](./showcase.gif)
