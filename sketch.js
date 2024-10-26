@@ -7,11 +7,21 @@ let score = 0;
 
 function setup() {
   createCanvas(600, 625);
+  createButton("Reset").mousePressed(() => {
+    board = [
+      ["", "", ""],
+      ["", "", ""],
+      ["", "", ""],
+    ];
+    score = 0;
+  });
 }
 
 function draw() {
   background(0);
   stroke(255);
+  strokeWeight(5);
+
   line(200, 25, 200, 575);
   line(400, 25, 400, 575);
   line(25, 200, 575, 200);
@@ -49,12 +59,14 @@ function draw() {
 }
 
 function drawCross(x, y) {
+  stroke(255, 100, 150); // Pink
   line(x - 50, y - 50, x + 50, y + 50);
   line(x + 50, y - 50, x - 50, y + 50);
 }
 
 function drawCircle(x, y) {
   fill(0);
+  stroke(135, 206, 250); // Light Blue
   circle(x, y, 100);
 }
 
